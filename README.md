@@ -25,6 +25,36 @@ Tests are written for smart contract to ensure it works correctly (no time for f
 ## Known Issues
 - Navigating while transaction is pending causes ui stacked page. Possible cause: Javascript is single-thread and the page is waiting for a promise, need to move it to the background
 
+## Releases
+<table>
+<thead>
+  <tr>
+    <th>Version</th>
+    <th>Format</th>
+    <th>Compiled Platform</th>
+    <th>SHA-256 Checksum</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="3">0.1.0-alpha.1</td>
+    <td>Windows MSI</td>
+    <td>Windows 10</td>
+    <td>930D1172EED5DEE03D419EADCBA6589D54CE0A99793B8408ABE5993292F631BC</td>
+  </tr>
+  <tr>
+    <td>Linux deb</td>
+    <td>Debian 11 (bullseye)</td>
+    <td>608CF1165D9B2991BFC8C78F1171E827E86EEAEBE3148B5D1533A00698E58C3A</td>
+  </tr>
+  <tr>
+    <td>Linux AppImage</td>
+    <td>Debian 11 (bullseye)</td>
+    <td>7F1BDD77452A441E43B090EEE4719FA294DAFA9305045DB5F93B638B06BB5CDB</td>
+  </tr>
+</tbody>
+</table>
+
 
 
 
