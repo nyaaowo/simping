@@ -1,0 +1,6 @@
+.pnpm-store
+# pnpm may not be the same on different system
+pnpm-lock.yaml
+
+# typechain binding
+simp-ts/src/lib/types/ethers-contract/

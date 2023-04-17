@@ -1,0 +1,11 @@
+{
+    "chain": {
+        "name": "Arbitrum Goerli",
+        "chainId": 421613
+    },
+    "contractAddress": "0x6CE51f0A8B778C74F310d86a95a114d28C13A85e",
+    "whitelistedImageUrls": [
+        "https:\\/\\/i\\d\\.imageban\\.ru\\/out\\/\\d{4}\\/\\d{2}\\/\\d{2}\\/[\\da-f]{32}\\.[a-z]{3}",
+        "https:\\/\\/images2\\.imgbox\\.com\\/[\\da-f]{2}\\/[\\da-f]{2}\\/[a-zA-Z\\d]{8}_o\\.[a-z]{3}"
+    ]
+}
