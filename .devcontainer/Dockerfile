@@ -1,13 +1,14 @@
 FROM mcr.microsoft.com/devcontainers/base:debian-11
 
-# install radicle (optional)
-USER vscode
-RUN curl -sSf https://radicle.xyz/install | sh
-USER root
-
 # install rust
 USER vscode
 RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
+USER root
+
+# install radicle (optional)
+USER vscode
+RUN . $HOME/.profile && cargo install --force --locked --git https://seed.radicle.xyz/z3gqcJUoA1n9HaHKufZs5FCSGazv5.git \
+    radicle-cli radicle-node radicle-remote-helper
 USER root
 
 # install foundry
