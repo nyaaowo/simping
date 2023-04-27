@@ -55,6 +55,9 @@ Tests are written for smart contract to ensure it works correctly (no time for f
 </tbody>
 </table>
 
+## Preview
+![Home Screen](https://user-images.githubusercontent.com/130980708/234938601-09d65411-c6f2-4a41-a6b8-75b4f7623299.png)
+
 
 
 
